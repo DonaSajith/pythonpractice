@@ -1,0 +1,6 @@
+tuple1= (2, 4, 8, 10, 12)
+temp_lst= list(tuple1)
+temp_lst.insert(2,6)
+#print(temp_lst)
+tuple2= tuple(temp_lst)
+print(tuple2)
