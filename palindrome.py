@@ -1,5 +1,18 @@
-string= input("Enter a string: ")
-if string == string[::-1]:
-    print(string, "is a palindrome")
+input1= input("Enter the input: ")
+if input1 == input1[::-1]:
+    print(input1, "is a palindrome")
 else:
-    print(string, "is not a palindrome")
+    print(input1, "is not a palindrome")
+
+
+
+# number = input("Give an input: ")
+#
+# reverse = ""
+# for i in number:
+#     reverse = i + reverse   # build reverse manually
+#
+# if number == reverse:
+#     print(number, "is a palindrome")
+# else:
+#     print(number, "is not a palindrome")
